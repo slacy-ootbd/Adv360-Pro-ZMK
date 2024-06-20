@@ -1,3 +1,27 @@
+macro_desktop_2: macro_desktop_2{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_2";
+#binding-cells = <0>;
+bindings = <&kt LEFT_CONTROL>, <&kp NUMBER_2>, <&kt LEFT_CONTROL>;
+};
+macro_desktop_1: macro_desktop_1{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_1";
+#binding-cells = <0>;
+bindings = <&kt LEFT_CONTROL>, <&kp NUMBER_1>, <&kt LEFT_CONTROL>;
+};
+macro_mov_wind_right: macro_mov_wind_right{
+compatible = "zmk,behavior-macro";
+label = "macro_mov_wind_right";
+#binding-cells = <0>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kp RIGHT_ARROW>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>;
+};
+macro_mov_wind_left: macro_mov_wind_left{
+compatible = "zmk,behavior-macro";
+label = "macro_mov_wind_left";
+#binding-cells = <0>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kp LEFT_ARROW>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>;
+};
 macro_mov_window_br: macro_mov_window_br{
 compatible = "zmk,behavior-macro";
 label = "macro_mov_window_br";
