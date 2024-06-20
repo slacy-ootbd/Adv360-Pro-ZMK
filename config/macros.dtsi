@@ -2,7 +2,7 @@ macro_mov_window_br: macro_mov_window_br{
 compatible = "zmk,behavior-macro";
 label = "macro_mov_window_br";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp K>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kp K>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>;
 };
 macro_mov_window_tr: macro_mov_window_tr{
 compatible = "zmk,behavior-macro";
